@@ -218,7 +218,7 @@ function Expenditures() {
 
             })}
             <div className="buttons-div">
-              <button onClick={() => DeleteButton(div.id)}><img src="/delete_24dp_E8EAED_FILL0_wght400_GRAD0_opsz24.svg"/></button>
+              <button onClick={() => DeleteButton(div.id)}><img src="`${process.env.PUBLIC_URL}/delete_24dp_E8EAED_FILL0_wght400_GRAD0_opsz24.svg`"/></button>
             </div>
           </div>
         ))}
