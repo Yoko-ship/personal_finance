@@ -28,7 +28,7 @@ function App() {
         <div className="buttons-main">
         <ul>
             <button>
-              <Link to="/"><img src="/home.png"/></Link>
+              <Link to="/"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/34/Home-icon.svg/640px-Home-icon.svg.png"/></Link>
             </button>
 
             <button>
