@@ -1,5 +1,8 @@
 import { useEffect, useState } from "react";
 import Grafic from "./Grafic";
+import checkImage from "./assert/check_24dp_E8EAED_FILL0_wght400_GRAD0_opsz24.svg"
+import deleteImage from "./assert/delete_24dp_E8EAED_FILL0_wght400_GRAD0_opsz24.svg"
+
 
 
 function Expenditures() {
@@ -164,7 +167,7 @@ function Expenditures() {
 
           <button type="button" onClick={handleClick}>
             <img
-              src={"/check_24dp_E8EAED_FILL0_wght400_GRAD0_opsz24.svg"}
+              src={checkImage}
               alt="confirm-button"
             />
           </button>
@@ -218,7 +221,7 @@ function Expenditures() {
 
             })}
             <div className="buttons-div">
-              <button onClick={() => DeleteButton(div.id)}><img src={`${process.env.PUBLIC_URL}/delete_24dp_E8EAED_FILL0_wght400_GRAD0_opsz24.svg`}/></button>
+              <button onClick={() => DeleteButton(div.id)}><img src={deleteImage}/></button>
             </div>
           </div>
         ))}

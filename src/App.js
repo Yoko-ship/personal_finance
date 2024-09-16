@@ -1,8 +1,13 @@
 import "./App.css";
 import { useState } from "react";
-import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
+import { HashRouter as Router, Routes, Route, Link } from 'react-router-dom';
 import Income from "./components/Income";
 import Expenditures from "./components/Expenditures";
+import homeImage from "./components/assert/home.png"
+import expenseImage from "./components/assert/expense.png"
+import salaryImage from "./components/assert/salary.png"
+
+
 
 function App() {
   
@@ -28,14 +33,14 @@ function App() {
         <div className="buttons-main">
         <ul>
             <button>
-              <Link to="/"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/34/Home-icon.svg/640px-Home-icon.svg.png"/></Link>
+              <Link to="/"><img src={homeImage}/></Link>
             </button>
 
             <button>
-              <Link to="/expenditures"><img src="/expense.png"/></Link>
+              <Link to="/expenditures"><img src={expenseImage}/></Link>
             </button>
             <button>
-              <Link to="/Incomes"><img src="/salary.png"/></Link>
+              <Link to="/Incomes"><img src={salaryImage}/></Link>
             </button>
           </ul>
         </div>

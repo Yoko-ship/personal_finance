@@ -1,5 +1,7 @@
 import { useState, useEffect } from "react";
 import BarChart from "./IncomeGraphic";
+import checkImage from "./assert/check_24dp_E8EAED_FILL0_wght400_GRAD0_opsz24.svg"
+import deleteImage from "./assert/delete_24dp_E8EAED_FILL0_wght400_GRAD0_opsz24.svg"
 
 function Income() {
   const currentDateTime = new Date().toLocaleString("ru-RU");
@@ -141,7 +143,7 @@ function Income() {
 
           <button type="button" onClick={ButtonHandler}>
             <img
-              src="/check_24dp_E8EAED_FILL0_wght400_GRAD0_opsz24.svg"
+              src={checkImage}
               alt="confirm button"
             />
           </button>
@@ -186,7 +188,7 @@ function Income() {
 
             })}
             <div className="buttons-div">
-              <button onClick={() => DeleteButton(div.id)}><img src="/delete_24dp_E8EAED_FILL0_wght400_GRAD0_opsz24.svg"/></button>
+              <button onClick={() => DeleteButton(div.id)}><img src={deleteImage}/></button>
             </div>
 
           </div>
