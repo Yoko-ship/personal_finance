@@ -22,9 +22,9 @@ header span{
   font-size: 20px;
 }
 
-.buttons-main{
+.buttons-main ul{
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   padding: 10px;
   background-color: burlywood;
 }
@@ -39,6 +39,7 @@ header span{
   background: none;
   border: none;
 }
+
 
 
 

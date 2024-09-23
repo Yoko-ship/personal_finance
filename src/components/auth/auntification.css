@@ -1,0 +1,7 @@
+.auntification button{
+    cursor: pointer;
+}
+
+.auntification button:hover{
+    transform: scale(1.1);
+}

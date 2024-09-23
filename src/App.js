@@ -6,6 +6,11 @@ import Expenditures from "./components/Expenditures";
 import homeImage from "./components/assert/home.png"
 import expenseImage from "./components/assert/expense.png"
 import salaryImage from "./components/assert/salary.png"
+import AuntificationImage from "./components/assert/signup.png"
+import singInImage from "./components/assert/sign-in.png"
+import SingUp from "./components/auth/SingUp";
+import SingIn from "./components/auth/SingIn";
+import AuthDetails from "./components/auth/AuthDetails";
 
 
 
@@ -42,6 +47,13 @@ function App() {
             <button>
               <Link to="/Incomes"><img src={salaryImage}/></Link>
             </button>
+            <button>
+              <Link to="/signUp"><img src={AuntificationImage}/></Link>
+            </button>
+            <button>
+              <Link to="signIn"><img src={singInImage}/></Link>
+            </button>
+            <AuthDetails/>
           </ul>
         </div>
 
@@ -49,6 +61,8 @@ function App() {
             <Route path="/"/>
             <Route path="/expenditures" element={<Expenditures/>}/>
             <Route path="/Incomes" element={<Income/>}/>
+            <Route path="/signUp" element={<SingUp/>}/>
+            <Route path="/signIn" element={<SingIn/>}/>
           </Routes>
 
       </Router>
