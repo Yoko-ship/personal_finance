@@ -45,7 +45,7 @@ function App() {
               <Link to="/expenditures"><img src={expenseImage}/></Link>
             </button>
             <button>
-              <Link to="/Incomes"><img src={salaryImage}/></Link>
+              <Link to="/incomes"><img src={salaryImage}/></Link>
             </button>
             <button>
               <Link to="/signUp"><img src={AuntificationImage}/></Link>
@@ -60,7 +60,7 @@ function App() {
         <Routes>
             <Route path="/"/>
             <Route path="/expenditures" element={<Expenditures/>}/>
-            <Route path="/Incomes" element={<Income/>}/>
+            <Route path="/incomes" element={<Income/>}/>
             <Route path="/signUp" element={<SingUp/>}/>
             <Route path="/signIn" element={<SingIn/>}/>
           </Routes>
