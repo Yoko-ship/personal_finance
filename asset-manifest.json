@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/finance_personal/static/css/main.b243db72.css",
+    "main.js": "/finance_personal/static/js/main.d7e645f6.js",
+    "index.html": "/finance_personal/index.html",
+    "static/media/delete_24dp_E8EAED_FILL0_wght400_GRAD0_opsz24.svg": "/finance_personal/static/media/delete_24dp_E8EAED_FILL0_wght400_GRAD0_opsz24.5bfaca79cb0cea931db86a25db7daeda.svg",
+    "static/media/check_24dp_E8EAED_FILL0_wght400_GRAD0_opsz24.svg": "/finance_personal/static/media/check_24dp_E8EAED_FILL0_wght400_GRAD0_opsz24.e4b5c7b4fb0653d792f32c4989ccbed4.svg",
+    "main.b243db72.css.map": "/finance_personal/static/css/main.b243db72.css.map",
+    "main.d7e645f6.js.map": "/finance_personal/static/js/main.d7e645f6.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b243db72.css",
+    "static/js/main.d7e645f6.js"
+  ]
+}
